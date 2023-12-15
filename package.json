@@ -15,12 +15,18 @@
     "@types/dat.gui": "^0.7.7",
     "@types/three": "^0.146.0",
     "gh-pages": "^4.0.0",
+    "html-webpack-plugin": "^5.5.4",
     "ts-loader": "^9.4.2",
     "ts-node": "^10.9.1",
+    "typescript": "^5.3.3",
     "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1"
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
+    "@sentry-internal/rrweb": "file:.yalc/@sentry-internal/rrweb",
+    "@sentry/browser": "file:.yalc/@sentry/browser",
+    "@sentry/replay": "file:.yalc/@sentry/replay",
     "dat.gui": "^0.7.9",
     "three": "^0.147.0"
   }
